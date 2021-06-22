@@ -1,0 +1,23 @@
+form {
+  margin-top: 25%;
+  margin-bottom: 5%;
+}
+
+input {
+  width: 350px;
+  font-family: Helvetica;
+  font-size: 4.5em;
+  color: white;
+  text-align: end;
+  background-color: black;
+  border-top-style: hidden;
+  border-right-style: hidden;
+  border-left-style: hidden;
+  border-bottom-style: hidden;
+}
+
+.screen-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
