@@ -1,37 +1,23 @@
-.numpad-wrapper {
-  padding-left: 5px;
-  padding-right: 5px;
-  align-items: center;
-}
-
-.numpad-top {
+.btn-grid {
   display: grid;
-  grid-template-columns: repeat(4, auto);
-}
-.operators {
-  background-color: orange;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 0.8em;
 }
 
-.numpad-bot {
-  display: grid;
-  grid-template-columns: repeat(3, auto);
-  margin-bottom: 5%;
-  align-items: center;
+.btn {
+  padding: 1em;
+  font-size: 2rem;
+  font-weight: bolder;
 }
 
-button {
-  width: 65px;
-  height: 65px;
-  font-family: sans-serif;
-  font-size: 1.5em;
-  border-radius: 60px;
-  text-align: center;
-  margin: 10%;
-  color: white;
-  background-color: rgb(69, 70, 70);
+.deleteBtn, .clearBtn {
+  padding: 1.3em;
+  grid-column: span 2;
 }
 
-.zero {
-  width: 160px;
-  margin-left: 0;
+@media (max-width: 500px) {
+  .btn {
+    padding: 1.2em;
+    font-size: 1.8rem;
+  }
 }
